@@ -44,6 +44,29 @@ It was built out of the belief that a publicly funded weather service should off
 
 Settings always opens at General. Fixed keyboard shortcuts are listed under **Help → Keyboard Shortcuts**; source credits are available under **About Meteocat → Sources**.
 
+## Install from the DMG
+
+Download **Meteocat-1.0.dmg** from the [latest release](https://github.com/mguellsegarra/meteocat/releases/latest), open it, and drag **Meteocat.app** to **Applications**. The downloadable build requires **macOS 14 or later on Apple Silicon**.
+
+### First launch: macOS security warning
+
+**This build is ad hoc signed and has not been notarized by Apple.** macOS may block the first launch with a message saying it could not verify that Meteocat is free of malware. You must explicitly allow the app on your Mac; installing it from the DMG does not grant this permission automatically.
+
+Only proceed if you trust the downloaded copy. To allow it using [Apple's documented procedure](https://support.apple.com/102445):
+
+1. Open **Meteocat** from Applications once, then dismiss the warning with **Done**.
+2. Open **System Settings → Privacy & Security** and scroll down to **Security**.
+3. Click **Open Anyway** next to the message about Meteocat.
+4. Confirm the opening and authenticate if prompted. macOS saves an exception for this app so you can open it normally afterward.
+
+Alternatively, after copying the app to Applications, you can remove its quarantine attribute in Terminal:
+
+```sh
+xattr -dr com.apple.quarantine "/Applications/Meteocat.app"
+```
+
+This command applies only to Meteocat and its contents. It removes the quarantine attribute; it does not check the app for malware, sign it with Developer ID, or notarize it. Use it only for a copy you trust, then open Meteocat from Applications.
+
 ## Build and run
 
 The app runs on **macOS 14 or later**. Building requires a recent Xcode toolchain with the **macOS 26 SDK or later**, including the availability-gated Liquid Glass APIs. The package declares Swift tools 5.9 and has no remote Swift Package Manager dependencies.
