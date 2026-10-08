@@ -46,7 +46,7 @@ Settings always opens at General. Fixed keyboard shortcuts are listed under **He
 
 ## Install from the DMG
 
-Download **Meteocat-1.0.dmg** from the [latest release](https://github.com/mguellsegarra/meteocat/releases/latest), open it, and drag **Meteocat.app** to **Applications**. The downloadable build requires **macOS 14 or later on Apple Silicon**.
+Download **Meteocat-1.0.1.dmg** from the [latest release](https://github.com/mguellsegarra/meteocat/releases/latest), open it, and drag **Meteocat.app** to **Applications**. The downloadable build requires **macOS 14 or later on Apple Silicon**.
 
 ### First launch: macOS security warning
 

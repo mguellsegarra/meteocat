@@ -254,9 +254,13 @@ struct RadarPanelView: View {
                     .modifier(RadarGlassStyle(radius: gear.width / 2))
                     .focused($settingsFocused)
                     .opacity(hovering || settingsFocused ? 1 : 0)
-                    .animation(.easeOut(duration: 0.15), value: hovering || settingsFocused)
                     .frame(width: gear.width, height: gear.height)
                     .offset(x: gear.minX, y: gear.minY)
+                    // Reopening must reveal the gear at its final position, without a delayed entrance.
+                    .transaction {
+                        $0.animation = nil
+                        $0.disablesAnimations = true
+                    }
             }
             .frame(width: geo.size.width, height: geo.size.height, alignment: .topLeading)
         }
