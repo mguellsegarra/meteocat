@@ -23,6 +23,16 @@
 
 Meteocat brings the rainfall radar from the **Servei Meteorològic de Catalunya** to your Mac. Play through observations and forecasts, explore the map, and keep the viewer within reach from the Dock, menu bar, or a global keyboard shortcut.
 
+This project was inspired by [RadarCat](https://github.com/pmontp19/radarcat) by [pmontp19](https://github.com/pmontp19).
+
+It was built out of the belief that a publicly funded weather service should offer a good native desktop experience for the people whose taxes support it.
+
+<p align="center">
+  <img src="Assets/meteocat-dark.gif" width="750" alt="Meteocat macOS window in Dark appearance, playing recorded rainfall radar at 2× speed">
+</p>
+
+<p align="center"><sub>Dark appearance · 2× playback · Recorded radar data from October 7, 2026.</sub></p>
+
 ## Features
 
 - **Radar playback.** A chronological timeline of observations and forecasts, with smooth transitions and adjustable playback speed.
@@ -119,6 +129,14 @@ Catalan, Aranese, Spanish, Basque, Galician, English, French, German, Italian, P
 Choose a language in **Settings → General → Language**. The change applies immediately to app text and dates, with Catalan as the fallback. Settings follows the language's writing direction; the radar keeps its geographic layout. Dates use the Gregorian calendar and the Europe/Madrid time zone, while stored frame timestamps remain UTC.
 
 Translations still benefit from review by native speakers, particularly Tamazight.
+
+## Disclaimer
+
+This is an independent, non-commercial project developed without a profit motive. It is not affiliated with, endorsed by, or an official product of the Servei Meteorològic de Catalunya (Meteocat) or the Generalitat de Catalunya.
+
+The app retrieves radar information from Meteocat's public radar webpage and image endpoints to display it in a native macOS interface. It is intended as a convenient way to consult that information, as you would on the radar website. This does not imply permission to reuse or redistribute the underlying data: [Meteocat's terms of use](https://www.meteo.cat/wpweb/avis-legal/) and the rights of each data provider still apply. Names, logos, and weather data remain the property of their respective owners.
+
+The app is provided "as is", without warranties of accuracy, completeness, availability, or fitness for a particular purpose. Data may be delayed, incomplete, or unavailable. Use it for general information, and consult official forecasts, warnings, and emergency guidance for safety decisions. To the extent permitted by applicable law, the author and contributors accept no liability for misuse, misinterpretation, or loss or damage arising from use of the app. Users remain responsible for how they use it.
 
 ## Data and attribution
 
