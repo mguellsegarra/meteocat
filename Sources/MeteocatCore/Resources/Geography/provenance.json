@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "path": "/Users/marc/Desktop/meteocat-raycast/assets/projection-manifest.json",
+      "sha256": "9f5a9eafd2dea08961ea145687d319a32141e11ae1fd4ef46422063a2cdb4c90"
+    },
+    {
+      "path": "/Users/marc/Desktop/meteocat-raycast/assets/paths.svg",
+      "sha256": "bec616c569b5f0809086281e674bedb863bf5cb904ab0da94c7c439e0195db5b"
+    },
+    {
+      "path": "/Users/marc/Desktop/meteocat-raycast/assets/layer-under.svg",
+      "sha256": "9c6d7ae05c8740b3bba4fb6f44de15f6a17de0860416932c09744a51b1170d13"
+    },
+    {
+      "path": "/Users/marc/Desktop/meteocat-raycast/assets/context-provenance.json",
+      "sha256": "ecc4e590536ea260e583f2be8f7c1af18573368fe95cb8660425e80fc114f824"
+    },
+    {
+      "path": "/Users/marc/Desktop/meteocat-raycast/assets/default-cities.json",
+      "sha256": "c6bd204c970fc2d0be3b7eec76de0bf29e0da3f2faf33b7fda32a252cb7888ed"
+    }
+  ],
+  "licensing": {
+    "ICGC": "Divisions administratives de Catalunya 1:500000, CC BY 4.0",
+    "Natural Earth": "1:10m, public domain",
+    "Idescat": "Municipal coordinates; preserve attribution",
+    "Meteocat": "Recorded radar tiles from authorized local cache; attribution Servei Meteorològic de Catalunya, no grant of redistribution rights inferred"
+  },
+  "notes": [
+    "44 paths: 43 territorial entities and Catalunya outline.",
+    "Context includes Spain, France and Andorra; projection manifest context prose is stale.",
+    "Projection numbers unchanged. SVG frame rounded clip is replaced with rectangular geographic clipping."
+  ]
+}

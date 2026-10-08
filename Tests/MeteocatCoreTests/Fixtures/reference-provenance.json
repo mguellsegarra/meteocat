@@ -1,0 +1,6 @@
+{
+  "source": "/tmp/meteocat-alignment-test-IZtDVq/independent-precipitation.png",
+  "validUTC": "2026-10-07T05:48:00Z",
+  "sha256": "d50533c08db553754612c65722fb5f04fa5e30beacf02f65445699c06469dce6",
+  "expectedStraightRGBAHash": "27295309777ddfac4ecbd78370d3466459d5a0a172314179c1c6be4ed569cfb1"
+}

@@ -1,0 +1,84 @@
+{
+  "dataset": "Mapzen Terrain Tiles, accessed 2026-10-07",
+  "registry": "https://registry.opendata.aws/terrain-tiles/",
+  "format_documentation": "https://github.com/tilezen/joerd/blob/master/docs/formats.md",
+  "attribution_documentation": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+  "attribution": "Terrain: Mapzen; Europe terrain data produced using Copernicus data and information funded by the European Union \u2014 EU-DEM layers; SRTM terrain data courtesy of NASA and the U.S. Geological Survey; Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration.",
+  "crs": "EPSG:3857",
+  "bbox": [
+    -150284.85361480707,
+    4923982.758275913,
+    538964.6601540097,
+    5309151.604205547
+  ],
+  "size": [
+    1360,
+    760
+  ],
+  "projection_manifest_sha256": "9f5a9eafd2dea08961ea145687d319a32141e11ae1fd4ef46422063a2cdb4c90",
+  "output_sha256": "e8fc5ac5b7c7378658a709f2ab0fd37784db24ed905b3721b779f6a6943bfe6d",
+  "processing": "Terrarium decoded to metres; bilinear reprojection to exact bbox; three-light hillshade with 2x vertical exaggeration, subdued monochrome alpha, sea elevations excluded. Presentation only.",
+  "runtime_network": false,
+  "tiles": [
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/127/94.png",
+      "sha256": "35992df362f49f668449e2b72a649b4cdd57c25f633712586eee935cc1137d8b"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/128/94.png",
+      "sha256": "258eda392c37e54ece74194ef3407d22d9b2efd62de278bff4f45ee768faf4c1"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/129/94.png",
+      "sha256": "f3232a31ac51f296dfc1819cbe21e46fb0a61ae1fbdf60d15903ddf51492b77c"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/130/94.png",
+      "sha256": "3873df58c6c0cbafa863c42afdfa3caf421d0ac59d27278264aa939145ce9f0f"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/131/94.png",
+      "sha256": "ee30b93ec08808a87dde4d79314e79c54302051f991fb0b5bab3e6b750d1efd5"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/127/95.png",
+      "sha256": "d51873942a0888608acd8d9714bebb21130886cffb4d77568f61f4e49d442127"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/128/95.png",
+      "sha256": "fe5b1548ed485754fce86b42aef5a83528cfd2d025a4aa8c2fb6172a0c57431b"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/129/95.png",
+      "sha256": "f900074d0a870d4a77dc926401a6f95ba031b2c45f12926638ed49a39993f024"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/130/95.png",
+      "sha256": "8c00c7ce86ef2deb23d4c7bb8cbc2fc293a8e5361d72075527435e76f5ecc446"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/131/95.png",
+      "sha256": "a3d4713092311f217ea32dbd481bbdb14a1962a937cf089043fb39dbfd7935af"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/127/96.png",
+      "sha256": "751751b53e69f8ec125ff8169a3a68a26eb185147b1597c579f4f7ab47990d77"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/128/96.png",
+      "sha256": "fddbf0d10af10d751dead35f110c4a5256e8b906d104e089e86d8466bdc05e61"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/129/96.png",
+      "sha256": "9fa3dbff9a4224a58fc8ef9f1ce554160e77ae9f9d15e0deed422c49f840abc7"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/130/96.png",
+      "sha256": "7582ed38d60d28d7c388b3949175f40a2785bb390c4f7ab78601a1ff7b74530b"
+    },
+    {
+      "url": "https://elevation-tiles-prod.s3.amazonaws.com/terrarium/8/131/96.png",
+      "sha256": "2baed9887b8bd360b9bb35e1f81217f277e0e983ba9f8c60ae00ace9ebd0104e"
+    }
+  ]
+}

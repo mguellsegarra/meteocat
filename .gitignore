@@ -1,0 +1,38 @@
+# Locally installed agent skills
+/.agents/
+/skills-lock.json
+
+# Swift Package Manager
+/.build/
+/.swiftpm/
+
+# Generated app bundles
+/Artifacts/
+/Release/
+
+# Xcode local build output and user settings
+/build/
+/DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Local design media, prototypes and generated output
+# Keep consolidated documentation and the geography script's inputs.
+/Design/**
+!/Design/**/
+!/Design/architecture.md
+!/Design/border-fix-20261007/before/layer-under.svg
+!/Design/border-fix-20261007/before/context-provenance.json
+/Design/*.before/
+
+# Local raster inspection output (test fixtures live in Tests/)
+/Scripts/Validation/
+
+# Python caches from project tooling
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS metadata
+.DS_Store
+._*

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>cat.mguellsegarra.meteocat</string>
+<key>CFBundleDevelopmentRegion</key><string>ca</string>
+<key>CFBundleLocalizations</key><array><string>ca</string><string>oc</string><string>es</string><string>eu</string><string>gl</string><string>en</string><string>fr</string><string>de</string><string>it</string><string>pt</string><string>nl</string><string>ro</string><string>ar</string><string>zgh</string><string>ur</string><string>zh-Hans</string><string>uk</string><string>ru</string><string>pl</string><string>pa</string><string>bn</string></array>
+<key>CFBundleName</key><string>Meteocat</string>
+<key>CFBundleDisplayName</key><string>Meteocat</string>
+<key>CFBundleExecutable</key><string>Meteocat</string>
+<key>CFBundleIconFile</key><string>Meteocat.icns</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>LSUIElement</key><false/>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSLocationUsageDescription</key><string>Meteocat consulta la ubicació quan prems "Usa la ubicació actual". El punt es desa automàticament al Mac i no s'envia a Meteocat.</string>
+</dict></plist>

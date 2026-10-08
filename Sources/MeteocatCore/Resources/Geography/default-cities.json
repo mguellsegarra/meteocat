@@ -1,0 +1,191 @@
+[
+  {
+    "id": "mun:252430",
+    "lon": 0.7962166666666667,
+    "lat": 42.70346111111111,
+    "name": "Vielha",
+    "visible": true
+  },
+  {
+    "id": "mun:170792",
+    "lon": 2.821044444444444,
+    "lat": 41.98379722222222,
+    "name": "Girona",
+    "visible": true
+  },
+  {
+    "id": "mun:431554",
+    "lon": 0.5233472222222223,
+    "lat": 40.812063888888886,
+    "name": "Tortosa",
+    "visible": true
+  },
+  {
+    "id": "mun:080193",
+    "lon": 2.1783888888888887,
+    "lat": 41.38353055555555,
+    "name": "Barcelona",
+    "visible": true
+  },
+  {
+    "id": "mun:251207",
+    "lon": 0.6259111111111111,
+    "lat": 41.61918611111111,
+    "name": "Lleida",
+    "visible": true
+  },
+  {
+    "id": "mun:431482",
+    "lon": 1.2520944444444444,
+    "lat": 41.11747777777778,
+    "name": "Tarragona",
+    "visible": true
+  },
+  {
+    "id": "mun:252038",
+    "lon": 1.4627694444444443,
+    "lat": 42.35841666666667,
+    "name": "La Seu d'Urgell",
+    "visible": true
+  },
+  {
+    "id": "mun:431613",
+    "lon": 1.2520361111111111,
+    "lat": 41.28771111111111,
+    "name": "Valls",
+    "visible": true
+  },
+  {
+    "id": "mun:081136",
+    "lon": 1.8272861111111112,
+    "lat": 41.72869444444444,
+    "name": "Manresa",
+    "visible": true
+  },
+  {
+    "id": "mun:082981",
+    "lon": 2.255908333333333,
+    "lat": 41.93045,
+    "name": "Vic",
+    "visible": true
+  },
+  {
+    "id": "mun:170669",
+    "lon": 2.962413888888889,
+    "lat": 42.2665,
+    "name": "Figueres",
+    "visible": true
+  },
+  {
+    "id": "mun:252347",
+    "lon": 0.8963166666666667,
+    "lat": 42.16796111111111,
+    "name": "Tremp",
+    "visible": true
+  },
+  {
+    "id": "mun:252075",
+    "lon": 1.5210027777777777,
+    "lat": 41.996922222222224,
+    "name": "Solsona",
+    "visible": true
+  },
+  {
+    "id": "mun:430939",
+    "lon": 0.6428944444444444,
+    "lat": 41.09265833333333,
+    "name": "Móra d'Ebre",
+    "visible": true
+  },
+  {
+    "id": "mun:252094",
+    "lon": 1.1312083333333334,
+    "lat": 42.412475,
+    "name": "Sort",
+    "visible": true
+  },
+  {
+    "id": "mun:430141",
+    "lon": 0.5809916666666667,
+    "lat": 40.70993055555556,
+    "name": "Amposta",
+    "visible": true
+  },
+  {
+    "id": "mun:080229",
+    "lon": 1.846963888888889,
+    "lat": 42.10272777777778,
+    "name": "Berga",
+    "visible": true
+  },
+  {
+    "id": "mun:430640",
+    "lon": 0.43990555555555555,
+    "lat": 41.05455,
+    "name": "Gandesa",
+    "visible": true
+  },
+  {
+    "id": "mun:171143",
+    "lon": 2.4893055555555557,
+    "lat": 42.183188888888886,
+    "name": "Olot",
+    "visible": true
+  },
+  {
+    "id": "mun:171411",
+    "lon": 1.9283555555555554,
+    "lat": 42.43395833333333,
+    "name": "Puigcerdà",
+    "visible": true
+  },
+  {
+    "id": "mun:252173",
+    "lon": 1.1417249999999999,
+    "lat": 41.6494,
+    "name": "Tàrrega",
+    "visible": true
+  },
+  {
+    "id": "mun:083073",
+    "lon": 1.72645,
+    "lat": 41.224130555555554,
+    "name": "Vilanova i la Geltrú",
+    "visible": true
+  },
+  {
+    "id": "mun:252192",
+    "lon": 1.2770083333333333,
+    "lat": 41.73211666666667,
+    "name": "Tarroja de Segarra",
+    "visible": true
+  },
+  {
+    "id": "mun:431763",
+    "lon": 1.0513166666666667,
+    "lat": 41.401575,
+    "name": "Vimbodí i Poblet",
+    "visible": true
+  },
+  {
+    "id": "mun:250404",
+    "lon": 0.8075861111111111,
+    "lat": 41.79166111111111,
+    "name": "Balaguer",
+    "visible": true
+  },
+  {
+    "id": "mun:171479",
+    "lon": 2.1927305555555554,
+    "lat": 42.19972222222222,
+    "name": "Ripoll",
+    "visible": true
+  },
+  {
+    "id": "mun:081022",
+    "lon": 1.6184361111111112,
+    "lat": 41.57933888888889,
+    "name": "Igualada",
+    "visible": true
+  }
+]

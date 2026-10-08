@@ -1,0 +1,97 @@
+{
+  "crs": "EPSG:3857",
+  "units": "metres",
+  "width": 680,
+  "height": 380,
+  "aspectRatio": 1.7894736842105263,
+  "bbox": [
+    -150284.85361480707,
+    4923982.758275913,
+    538964.6601540097,
+    5309151.604205547
+  ],
+  "bboxOrder": [
+    "xmin",
+    "ymin",
+    "xmax",
+    "ymax"
+  ],
+  "geographicBBox": [
+    -1.350031809738461,
+    40.39823616531908,
+    4.8416019181663055,
+    42.98146860044379
+  ],
+  "catalunyaExtent": [
+    17708.795436639874,
+    4942227.598346264,
+    370971.0111025628,
+    5290906.764135195
+  ],
+  "metresPerPixel": 1013.602226130613,
+  "uniformScalePxPerMetre": 0.000986580311506873,
+  "transform": {
+    "x": "(X - xmin) * scale",
+    "y": "(ymax - Y) * scale",
+    "origin": "top-left",
+    "yAxis": "south/down",
+    "svgMatrix": [
+      0.000986580311506873,
+      0,
+      0,
+      -0.000986580311506873,
+      148.26807769406116,
+      5237.904443514322
+    ]
+  },
+  "projection": {
+    "radius": 6378137.0,
+    "X": "R * lonRadians",
+    "Y": "R * ln(tan(pi/4 + latRadians/2))"
+  },
+  "radar": {
+    "z": 7,
+    "tileSize": 256,
+    "indexConvention": "TMS",
+    "pngOrigin": "top-left, north up",
+    "yTMS": "2^z - 1 - yXYZ",
+    "tileBounds": "[x*span-half,y*span-half,(x+1)*span-half,(y+1)*span-half]",
+    "spanMetres": 313086.06785608194,
+    "worldHalfWidthMetres": 20037508.342789244,
+    "expectedTiles": [
+      {
+        "x": 63,
+        "y": 79
+      },
+      {
+        "x": 64,
+        "y": 79
+      },
+      {
+        "x": 65,
+        "y": 79
+      },
+      {
+        "x": 63,
+        "y": 80
+      },
+      {
+        "x": 64,
+        "y": 80
+      },
+      {
+        "x": 65,
+        "y": 80
+      }
+    ],
+    "sourcePixel": "sx=floor((X-tileXmin)/span*256); sy=floor((tileYmax-Y)/span*256)",
+    "sampling": "nearest neighbour at destination pixel centres; preserve source RGBA",
+    "officialGinyDisplayOpacity": 0.85,
+    "assetOpacity": 1.0
+  },
+  "context": "Blank outside Catalunya outline; no neighboring land/coastline dataset included. Do not portray all outside area as sea.",
+  "precision": "Source official generalization 1:500000; SVG only uses coverage-preserving Visvalingam simplification, tolerance 50 projected metres; coordinates rounded to 0.001 px. Full projected GeoJSON remains unsimplified.",
+  "svgMaxHausdorffErrorPx": 0.36992130040519333,
+  "sourceFeatureCount": 43,
+  "territorialNote": "42 comarques plus singular territorial entity Val d’Aran"
+}

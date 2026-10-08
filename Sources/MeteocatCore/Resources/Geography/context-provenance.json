@@ -1,0 +1,79 @@
+{
+  "dataset": "Natural Earth 1:10m Admin 0 Countries",
+  "version": "5.1.1",
+  "sourcePage": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+  "downloadURL": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries.zip",
+  "license": "Public domain",
+  "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "archiveSHA256": "ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6",
+  "crsSource": "EPSG:4326 WGS84 (archive .prj)",
+  "crsOutput": "EPSG:3857",
+  "bbox": [
+    -150284.85361480707,
+    4923982.758275913,
+    538964.6601540097,
+    5309151.604205547
+  ],
+  "pixelTransform": {
+    "x": "(X - xmin) * scale",
+    "y": "(ymax - Y) * scale",
+    "origin": "top-left",
+    "yAxis": "south/down",
+    "svgMatrix": [
+      0.000986580311506873,
+      0,
+      0,
+      -0.000986580311506873,
+      148.26807769406116,
+      5237.904443514322
+    ]
+  },
+  "countryChecks": [
+    {
+      "country": "France",
+      "sourceValid": true,
+      "projectedValid": true,
+      "projectedAreaM2": 23238209662.229633
+    },
+    {
+      "country": "Spain",
+      "sourceValid": true,
+      "projectedValid": true,
+      "projectedAreaM2": 131050304799.37984
+    },
+    {
+      "country": "Andorra",
+      "sourceValid": true,
+      "projectedValid": true,
+      "projectedAreaM2": 833560775.9553926
+    }
+  ],
+  "processing": "Select Spain, France, Andorra; clip WGS84 frame; exact spherical Web Mercator; clip exact projected bbox; subtract unchanged ICGC Catalunya for context fill; no simplification, 0.001 pixel SVG rounding. Coastline is the country polygon shoreline. Boundary strokes exclude artificial crop edges.",
+  "limitations": "Natural Earth 1:10 million coastline is generalized independently of ICGC 1:500000. ICGC remains authoritative for Catalunya. The bbox includes a northern sliver of Menorca from Spain.",
+  "styling": {
+    "sea": "#10151b",
+    "contextLand": "#181b20",
+    "Catalunya": "#1e2126",
+    "boundary": "#39414b",
+    "newLabels": 0,
+    "radarOpacity": 1
+  },
+  "projectionManifestSHA256": "9f5a9eafd2dea08961ea145687d319a32141e11ae1fd4ef46422063a2cdb4c90",
+  "radarSHA256": "10940d8cda68388cd47c3692abc282e9a516a9488ea8fbb8c3924590f42b19c1",
+  "derivedContextStrokes": {
+    "date": "2026-10-07",
+    "script": "Scripts/Geography/derive-context-strokes.py",
+    "sourceUnderlay": "Design/border-fix-20261007/before/layer-under.svg",
+    "sourceUnderlaySHA256": "9c6d7ae05c8740b3bba4fb6f44de15f6a17de0860416932c09744a51b1170d13",
+    "canonicalExterior": "paths.svg#catalunya-outline",
+    "canonicalPathsSHA256": "bec616c569b5f0809086281e674bedb863bf5cb904ab0da94c7c439e0195db5b",
+    "outputUnderlaySHA256": "0c5dfd7a1d78aba8e1cade6c049d10df8a571da270392860a1810a0855e51ade",
+    "toleranceCanonicalPixels": 2.3,
+    "roundingCanonicalPixels": 0.001,
+    "method": "Subtract a 2.30 canonical-pixel buffer of unchanged ICGC exterior from Natural Earth context strokes only; reconnect cut endpoints to nearest ICGC exterior within the same band. Keep every original context segment outside the band. No fill, terrain, comarca, bbox or projection changes.",
+    "ownership": "ICGC owns Catalunya exterior including shoreline; Natural Earth retains surrounding country borders and coast beyond local junction reconciliation.",
+    "limitations": "Presentation tolerance, not geographic accuracy. Short straight junction connectors reconcile independent generalization; original Natural Earth geometry and source provenance are saved. Offline SVG renders are not native alignment validation.",
+    "shapelyVersion": "2.2.0",
+    "geosVersion": "3.14.1"
+  }
+}
